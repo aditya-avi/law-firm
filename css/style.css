@@ -94,10 +94,10 @@ a:focus {
     font-weight: 800;
 }
 
-.top-bar .logo img {
+/* .top-bar .logo img {
     max-width: 100%;
     max-height: 60px;
-}
+} */
 
 .top-bar .top-bar-right {
     display: flex;
@@ -1777,3 +1777,26 @@ a:focus {
       display: none;
     }
   }
+  .logo-image{width: 90px;padding: 5px;}
+
+  @media (max-width:629px) {
+    #logo-txt-mb {
+      display: none;
+    }
+  }
+
+  .team-text-2
+  {
+    font-family: 'EB Garamond', serif;
+    font-weight: 600;
+    font-style: italic;
+    color: #000000;
+  }
+
+  /* .team-text-2:hover,
+.team-text-2:active,
+.team-text-2:focus {
+    color: #aa9166;
+    outline: none;
+    text-decoration: none;
+} */
