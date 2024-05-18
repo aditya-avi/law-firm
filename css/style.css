@@ -1644,7 +1644,8 @@ a:focus {
 .footer {
     position: relative;
     margin-top: 45px;
-    padding-top: 180px;
+    padding-top: 45px;
+    padding-bottom: 25px;
     background: #121518;
     color: #ffffff;
 }
@@ -1800,3 +1801,32 @@ a:focus {
     outline: none;
     text-decoration: none;
 } */
+
+.h-51
+{
+    height: 51vh;
+}
+
+.tooltip {
+    position: relative;
+    /* display: inline-block; */
+    /* border-bottom: 1px dotted black; */
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
